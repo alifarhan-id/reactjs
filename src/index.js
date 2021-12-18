@@ -4,9 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const HelloWorld = () => {
+  return(
+    <div>
+      <h1>Hello World</h1>
+      <br></br>
+      <strong>BELAJAR REACT JS</strong>
+    </div>
+  )
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HelloWorld />
   </React.StrictMode>,
   document.getElementById('root')
 );
